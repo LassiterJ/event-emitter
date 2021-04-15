@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "custom event emitter",
+  "main": "dist/EventEmitter",
+  "repository": "git@github.com:LassiterJ/event-emitter.git",
+  "author": "Jonathan Lassiter <36551695+LassiterJ@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "node dist/EventEmitter"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "eslint": "^7.24.0",
+    "eslint-prettier-config": "^1.0.1"
+  }
+}
